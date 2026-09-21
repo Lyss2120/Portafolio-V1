@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Fullstack Developer</title>
+    <!-- Tipografía Moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- CDN de Bootstrap Icons (Línea agregada para solucionar los iconos) -->
+    <link rel="stylesheet" href="https://jsdelivr.net">
+    
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script defer src="./assets/js/index.js"></script>
+</head>
+
+<body>
+
+    <!-- Efectos de iluminación de fondo -->
+    <div class="blur-bg"></div>
+    <div class="blur-bg-2"></div>
+
+    <!-- Barra de Navegación -->
+    <nav>
+        <div class="logo hurricane-regular">Lys Silva A.</div>
+        <ul class="nav-links">
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#skills">Stack</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Sección de Inicio (Hero) -->
+        <header>
+            <div class="hero-content">
+                <div class="badge">Disponible para nuevos proyectos</div>
+                <h1>Diseño código fluido. Construyo soluciones <span>Fullstack</span>.</h1>
+                <p class="hero-p">Soy Desarrolladora Web Fullstack. Me especializo en crear arquitecturas backend
+                    robustas y robustecer la experiencia de usuario con interfaces elegantes, limpias y altamente
+                    intuitivas.</p>
+                <a href="#contacto" class="btn btn-primary">Escríbeme</a>
+            </div>
+            <!-- Sección de Imagen Descomentada y Actualizada -->
+            <div class="hero-img">
+                <img src="./assets/img/perfil-lys.png" width="400" alt="Retrato de Lys Silva A." class="img-fluid">
+            </div>
+        </header>
+
+        <!-- Sección de Proyectos -->
+        <section id="proyectos">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div>
+                        <h3>Opal</h3>
+                        <p>Plataforma de comercio electrónico de alta gama con pasarela de pagos integrada, gestión de
+                            inventario en tiempo real y panel de administración detallado. Realizada en con un equipo de desarrolladores junior para una simulacion laboral en NoCountry</p>
+                        <div class="tech-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/DDarioBenitez/c15-32-ft-java-react.git" class="project-link">Ver repositorio GitHub →</a>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <h3>AlkeWallet Billetera Digital</h3>
+                        <p>Una aplicación web de billetera digital moderna, intuitiva y completamente responsiva. Permite a los usuarios gestionar sus finanzas personales, realizar depósitos de manera interactiva desde diferentes cuentas bancarias, transferir saldo a sus contactos y revisar un historial dinámico con balances actualizados en tiempo real mediante el uso de almacenamiento local (`localStorage`).</p>
+                        <div class="tech-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">Javascript</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/Lyss2120/AlkeWallet" class="project-link">Ver repositorio GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Habilidades -->
+        <section id="skills">
+            <h2 class="section-title">Stack Técnico</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><span>React js</span></div>
+                        <div class="skill-item"><span>JavaScript</span></div>
+                        <div class="skill-item"><span>Tailwind CSS / Bootstrap</span></div>
+                        <div class="skill-item"><span>UI/UX </span><span>Diseño</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><span>Node.js / Express</span></div>
+                        <div class="skill-item"><span>Python / Flask / SQLAlchemy</span></div>
+                        <div class="skill-item"><span>JWT / Django</span></div>
+                        <div class="skill-item"><span>APIs RESTful </span></div>
+                        <div class="skill-item"><span>SQL db</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Herramientas</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><span>Jira</span></div>
+                        <div class="skill-item"><span>Git & GitHub Actions</span></div>
+                        <div class="skill-item"><span> Vercel</span><span>Despliegue</span></div>
+                        <div class="skill-item"><span>Pruebas unitarias (Jest)</span><span>Testing</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <div class="contact-content">
+                <h2>¿Creemos software que deje huella?</h2>
+                <p>Lista para dar el salto al mundo profesional. Busco integrarme a equipos de desarrollo a tiempo completo o colaborar en proyectos independientes, aportando soluciones Fullstack sólidas y eficientes.</p>
+                <a href="mailto:lys.ivonne2020@gmail.com" class="btn btn-primary">lys.ivonne2020@gmail.com</a>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/lys-silva/" target="_blank"> <i class="me-2 bi bi-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/Lyss2120" target="_blank"><i class="me-2 bi bi-github"></i> GitHub</a>
+                    <a href="https://x.com/Lys34179" target="_blank"><i class="me-2 bi bi-twitter-x"></i> Twitter</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Lys Silva A. — Hecho con ❤️ y Js.</p>
+    </footer>
+
+</body>
+
+</html>
