@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
  * 1. Efecto de Escritura Dinámica (Typing Effect)
  * Alterna entre distintas especialidades en el título principal.
  */
-// function initTypingEffect() {
+function initTypingEffect() {
 //     const targetSpan = document.querySelector('h1 span');
 //     if (!targetSpan) return;
 
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //     // Iniciar el efecto
 //     type();
-// }
+}
 
 /**
  * 2. Revelación de Elementos al Desplazar (Scroll Reveal)
